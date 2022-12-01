@@ -37,8 +37,13 @@ a:active {color: rgb(220,140,83);}
 
 .button {min-width: 240px; }
 
-.foot {border-radius: 0px 0px 8px 8px; background-color: rgb(22,24,31); 
+.foot {
+  border-radius: 0px 0px 8px 8px; background-color: rgb(22,24,31); 
+  justify-content: center;
   }
+.hide {display: none}
+.icon {height: 32px; padding: 10px 15px;}
+
 
 @media screen and (min-width: 600px) {
   .headshot, .main, .foot {
@@ -50,4 +55,5 @@ a:active {color: rgb(220,140,83);}
   #button1, #button2 {margin: 10px 25px;}
   #button1 {padding: 6px 35px;}
   #button2 {padding: 6px 25px;}
+  .icon {height: 48px;}
 }
